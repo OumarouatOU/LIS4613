@@ -1,0 +1,19 @@
+<!-- book_lending_form.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Lending Form</title>
+</head>
+<body>
+  <h2>Book Lending</h2>
+  <form action="/books/lend" method="POST">
+    <label for="member_id">Member ID:</label>
+    <input type="text" id="member_id" name="member_id" required><br><br>
+    <label for="book_id">Book ID:</label>
+    <input type="text" id="book_id" name="book_id" required><br><br>
+    <button type="submit">Lend Book</button>
+  </form>
+</body>
+</html>

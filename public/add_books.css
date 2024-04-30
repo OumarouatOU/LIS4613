@@ -1,0 +1,83 @@
+/* Form styles */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px; /* Add padding for better spacing */
+  background-color: #f9f9f9; /* Light background color for form */
+  border-radius: 8px; /* Rounded corners for form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px; /* Increase margin bottom for better spacing */
+  font-weight: bold; /* Make labels bold for emphasis */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px; /* Increase margin bottom for better spacing */
+  border: 2px solid #ccc; /* Thicker border for input fields */
+  border-radius: 6px; /* Rounded corners for input fields */
+  transition: border-color 0.3s; /* Smooth transition for border color change */
+}
+
+input[type="text"]:focus {
+  border-color: #666; /* Change border color on focus for better feedback */
+}
+
+button[type="submit"] {
+  background-color: #007bff; /* Primary color for button */
+  color: #fff;
+  padding: 12px 24px; /* Increase padding for better click area */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for background color change */
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker shade on hover for button */
+}
+
+/* Navigation styles */
+nav {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 12px 16px;
+  margin: 5px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #f5f5f5;
+}
+
+nav a.active {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Add Book page styles */
+#add-book-nav a.active {
+  background-color: #333;
+  color: #fff;
+}
+
+#add-book-nav a.lend-book {
+  background-color: #28a745;
+  color: #fff;
+}
+
+#add-book-nav a.lend-book:hover {
+  background-color: #218838;
+}

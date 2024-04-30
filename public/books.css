@@ -1,0 +1,29 @@
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px; /* Increased padding for better readability and spacing */
+  text-align: center; /* Center-align text for both headers and data cells */
+  border-bottom: 2px solid #ddd; /* Thicker border for better visibility */
+}
+
+th {
+  background-color: #f8f8f8; /* Slightly lighter background color for headers */
+  font-weight: bold; /* Bold font weight for headers */
+  text-transform: uppercase; /* Uppercase text for headers */
+  letter-spacing: 1px; /* Increased letter spacing for headers */
+}
+
+/* Alternate row background color for better readability */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect for better user experience */
+tr:hover {
+  background-color: #e5e5e5;
+}
